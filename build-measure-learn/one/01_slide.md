@@ -2,8 +2,14 @@
 # build => measure => learn #
 
 * rapid-fire introduction
-* Wes Winham
+* Slides: [online](http://weswinham.com/preso/indylsc-build-measure-learn), [pdf](http://weswinham.com/preso/indylsc-build-measure-learn/build-measure-learn.pdf), [source on github](http://github.com/winhamwr/presentations)
+
+!SLIDE 
+# hello #
+
+* Wes Winham, software engineering background
 * Director of Product Development, PolicyStat
+* PolicyStat: SaaS and sold to hospitals
 
 !SLIDE bullets incremental
 # what is the BML loop? #
@@ -152,7 +158,7 @@
 * talked to actual customers before building *gasp*
 * MVP was a quick survey
 * people didn't know how to use scanners/fax
-* people wanted to whole thing done 
+* people wanted their entire return completed automatically
 
 !SLIDE bullets incremental
 # Snaptax: BML part 2 #
@@ -207,8 +213,8 @@
 # summary #
 
 * be a car, not a rocketship
-* use the BML-loop to steer
-* quicker times through loop, better
+* use the BML loop to steer
+* lower latency through the loop, more learning
 
 !SLIDE bullets incremental
 # tactics addendum: A/B testing #
@@ -249,5 +255,5 @@
 # thanks #
 
 * Me- Wes Winham [@weswinham](http://twitter.com/weswinham)
-* Slides: [source on github](http://github.com/winhamwr/presentations)
+* Slides: [online](http://weswinham.com/preso/indylsc-build-measure-learn), [pdf](http://weswinham.com/preso/indylsc-build-measure-learn/build-measure-learn.pdf), [source on github](http://github.com/winhamwr/presentations)
 
