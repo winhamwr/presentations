@@ -24,28 +24,45 @@
 
 * we're bad at prediction
 * anyone who says otherwise is selling something
-* startups are fundamentally uncertain
+* startups are fundamentally uncertain (by definition)
 
 !SLIDE bullets incremental
 # give up? #
 
-* business plans fail, so no planning
-* be a no-planning cowboy!?
+* business plans don't survive customer contact, so no planning?
+* "so be a no-planning cowboy!?"
 * if you're ok with never learning
 
 !SLIDE bullets incremental
 # analogy.rocket_ships #
 
+* exact thrusts, vectors, weights
 * meticulous planning up-front
-* tiny errors compound to produce catastrophies
+* tiny errors in planning can compound to produce catastrophies
+
+!SLIDE fullscreen
+
+<img src="740px-Challenger_explosion.jpg">
+<br />
+<div class="photo-credits">
+	photo: <a href="http://en.wikipedia.org/wiki/File:Challenger_explosion.jpg">NASA</a>
+</div>
 
 !SLIDE bullets incremental
 # analogy.driving #
 
 * steering a car is easy
-* describe the specific motions to get to work?
+* describe the specific motions for your commute?
 * impossible
 * feedback loops!
+
+!SLIDE fullscreen
+
+<img src="Team_Drift.jpg">
+<br />
+<div class="photo-credits">
+	photo: <a href="http://en.wikipedia.org/wiki/File:Team_Drift.jpg">Wikipedia user RB30DE</a>
+</div>
 
 !SLIDE 
 # don't be a rocket ship! #
