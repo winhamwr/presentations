@@ -19,6 +19,14 @@
 * tool to (in)validate hypothesis
 * scientific method for businesses
 
+!SLIDE fullscreen
+
+<img src="bml-loop.jpg">
+<br />
+<div class="photo-credits">
+	photo: <a href="http://www.thehackerchickblog.com/2010/08/lean-startups-learning-over-working-software.html">Abby Fichtner</a>
+</div>
+
 !SLIDE bullets incremental
 # why? #
 
@@ -77,6 +85,14 @@
 * space or bust?
 * mostly bust
 * pets.com, webvan
+
+!SLIDE fullscreen
+
+<img src="bml-loop.jpg">
+<br />
+<div class="photo-credits">
+	photo: <a href="http://www.thehackerchickblog.com/2010/08/lean-startups-learning-over-working-software.html">Abby Fichtner</a>
+</div>
 
 !SLIDE 
 # build #
