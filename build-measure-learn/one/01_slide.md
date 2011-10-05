@@ -2,7 +2,7 @@
 # build => measure => learn #
 
 * rapid-fire introduction
-* slides-online: http://bit.ly/indy-BML 
+* slides-online: [http://bit.ly/indy-BML](http://bit.ly/indy-BML) 
 * also: [pdf](http://weswinham.com/preso/indylsc-build-measure-learn/indylsc-build-measure-learn.pdf) and [source on github](http://github.com/winhamwr/presentations)
 
 !SLIDE 
@@ -245,6 +245,6 @@
 # thanks #
 
 * Me- Wes Winham [@weswinham](http://twitter.com/weswinham)
-* slides-online: http://bit.ly/indy-BML 
+* slides-online: [http://bit.ly/indy-BML](http://bit.ly/indy-BML)
 * also: [pdf](http://weswinham.com/preso/indylsc-build-measure-learn/indylsc-build-measure-learn.pdf) and [source on github](http://github.com/winhamwr/presentations)
 
