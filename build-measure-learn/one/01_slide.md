@@ -162,7 +162,7 @@
 
 * online clothing retailer known for great customer service
 * over $1 billion in revenue
-* aquired by Amazon for $1.2 billion
+* acquired by Amazon for $1.2 billion
 
 !SLIDE bullets incremental
 # Zappos: assumptions #
