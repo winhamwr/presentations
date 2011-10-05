@@ -121,36 +121,8 @@
 # case studies #
 
 * stolen from The Lean Startup
-* Consumer Federal Protection Bureau (CFPB)
 * Intuit's Snaptax
 * Zappos
-
-!SLIDE bullets incremental
-# CFPB #
-
-* Created by Dodd-Frank act to protect against predatory lending, fraud
-* $500 million budget
-
-!SLIDE bullets incremental
-# CFPB: assumptions #
-
-* if americans know it exists, they'll call for help
-* not the same: Fact- Lots of fraud in America
-
-!SLIDE bullets incremental
-# CFPB: rocketship #
-
-* use the $500 million budget to staff up call centers
-* develop training materials based on expert suggestions
-* develop marketing plan and advertisements for big launch
-
-!SLIDE bullets incremental
-# CFPB: BML #
-
-* **build**- pick one tiny high-fraud geographic area, saturate with ads, forward 800 number to cell phones
-* **measure**- call volume per population in saturated area
-* **learn**- what volume can you expect on extrapolation? 
-* what questions are real people asking?
 
 !SLIDE bullets incremental
 # Snaptax #
