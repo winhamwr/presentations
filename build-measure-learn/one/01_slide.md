@@ -203,15 +203,22 @@
 
 * aids analysis for questions like:
 * what call to action is most compelling to potential customers?
-* more complex or overlapping A/B tests- multivariate tests
 
 !SLIDE bullets incremental
-# call to action experiment  #
+# A/B testing: call to action experiment  #
 
-* randomly divide potential customers in to groups A and B
+* randomly divide potential customers as groups A and B
 * show group A "double your sales force"
 * show group B "halve your sales cost"
 * measure conversions (signups, demos, whatever)
+
+!SLIDE bullets incremental
+# tactics addendum: multivariate testing #
+
+* more complex or overlapping A/B tests- multivariate tests
+* "which of these 7 options are best?"
+* requires higher volume for statistical significance
+* if possible, stick to A/B tests for clarity (you'll know when it's not possible)
 
 !SLIDE
 # further resources #
