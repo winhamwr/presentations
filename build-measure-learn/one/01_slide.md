@@ -69,14 +69,14 @@
 * this is where the magic happens
 
 !SLIDE bullets incremental
-# planning happens in reverse $
+# planning happens in reverse #
 
 * what do you want to validate? *Learn*
 * what data would change your belief? *Measure*
 * what must you do to gather that data? *Build*
 
 !SLIDE bullets incremental
-# case studies $
+# case studies #
 
 * stolen from The Lean Startup
 * Consumer Federal Protection Bureau (CFPB)
@@ -84,49 +84,62 @@
 * Zappos
 
 !SLIDE bullets incremental
-# CFPB: assumptions $
+# CFPB: assumptions #
 
 !SLIDE bullets incremental
-# CFPB: BML $
+# CFPB: BML #
 
 !SLIDE bullets incremental
-# Snaptax: assumptions $
+# Snaptax: assumptions #
 
 !SLIDE bullets incremental
-# Snaptax: BML $
+# Snaptax: BML #
 
 !SLIDE bullets incremental
-# Zappos: assumptions $
+# Zappos: assumptions #
 
 !SLIDE bullets incremental
-# Zappos: BML $
+# Zappos: BML #
 
 !SLIDE bullets incremental
-# so many examples $
+# so many examples #
 
 * media loves the big-bang visionary story
-* flickr: video game
-* groupon: social activism platform
-* google: just info on Stanford and Linux
+* **flickr**: video game
+* **groupon**: social activism platform
+* **google**: just info on Stanford and Linux
 
 !SLIDE bullets incremental
-# tactics $
+# tactics #
 
 * individual tactics are not the BML strategy, but
 * tactics that get you through the loop faster, better
 
 !SLIDE bullets incremental
-# summary $
+# summary #
 
 * be a car, not a rocketship
 * use the BML-loop to steer
 * quicker times through loop, better
 
 !SLIDE bullets incremental
-# tactics addendum: multivariat testing $
+# tactics addendum: A/B testing #
+
+* a specific tactic to aid measurement during experiments
+* aids analysis for questions like:
+* what call to action is most compelling to potential customers?
+* more complex or overlapping A/B tests- multivariate tests
+
+!SLIDE bullets incremental
+# call to action experiment  #
+
+* randomly divide potential customers in to groups A and B
+* show group A "double your sales force"
+* show group B "halve your sales cost"
+* measure conversions (signups, demos, whatever)
 
 !SLIDE
-# further resources $
+# further resources #
 
 * The Lean Startup
 * [Startup Metrics for Pirates](http://500hats.typepad.com/500blogs/2007/09/startup-metrics.html)
@@ -134,7 +147,7 @@
 * Google like crazy
 
 !SLIDE
-# thanks $
+# thanks #
 
 * Me- Wes Winham [@weswinham](http://twitter.com/weswinham)
 * Slides: [source on github](http://github.com/winhamwr/presentations)
