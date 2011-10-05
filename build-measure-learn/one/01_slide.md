@@ -168,6 +168,7 @@
 
 * spend millions to develop application for entering W2 info via fax/scanner
 * write versions for all 50 states
+* develop marketing plan for big launch with nationwide billboards and tv ads
 
 !SLIDE bullets incremental
 # Snaptax: BML part 1 #
