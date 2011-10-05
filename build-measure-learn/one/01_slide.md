@@ -2,7 +2,7 @@
 # build => measure => learn #
 
 * rapid-fire introduction
-* Slides: [online](http://weswinham.com/preso/indylsc-build-measure-learn), [pdf](http://weswinham.com/preso/indylsc-build-measure-learn/build-measure-learn.pdf), [source on github](http://github.com/winhamwr/presentations)
+* Slides: [online](http://weswinham.com/preso/indylsc-build-measure-learn), [pdf](http://weswinham.com/preso/indylsc-build-measure-learn/indylsc-build-measure-learn.pdf), [source on github](http://github.com/winhamwr/presentations)
 
 !SLIDE 
 # hello #
@@ -255,5 +255,5 @@
 # thanks #
 
 * Me- Wes Winham [@weswinham](http://twitter.com/weswinham)
-* Slides: [online](http://weswinham.com/preso/indylsc-build-measure-learn), [pdf](http://weswinham.com/preso/indylsc-build-measure-learn/build-measure-learn.pdf), [source on github](http://github.com/winhamwr/presentations)
+* Slides: [online](http://weswinham.com/preso/indylsc-build-measure-learn), [pdf](http://weswinham.com/preso/indylsc-build-measure-learn/indylsc-build-measure-learn.pdf), [source on github](http://github.com/winhamwr/presentations)
 
