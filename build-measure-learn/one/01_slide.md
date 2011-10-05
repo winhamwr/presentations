@@ -109,18 +109,18 @@
 * not the same: Fact- Lots of fraud in America
 
 !SLIDE bullets incremental
-# CFPB: rocketship style #
+# CFPB: rocketship #
 
 * use the $500 million budget to staff up call centers
 * develop training materials based on expert suggestions
 * develop marketing plan and advertisements for big launch
 
 !SLIDE bullets incremental
-# CFPB: BML style #
+# CFPB: BML #
 
-* **build** pick one tiny high-fraud geographic area, saturate with ads, forward 800 number to cell phones
-* **measure** call volume per population in saturated area
-* **learn** what volume can you expect on extrapolation? 
+* **build**- pick one tiny high-fraud geographic area, saturate with ads, forward 800 number to cell phones
+* **measure**- call volume per population in saturated area
+* **learn**- what volume can you expect on extrapolation? 
 * what questions are real people asking?
 
 !SLIDE bullets incremental
@@ -129,13 +129,13 @@
 * people want to use their W2 to start tax returns via their fax/scanner
 
 !SLIDE bullets incremental
-# Snaptax: rocketship style #
+# Snaptax: rocketship #
 
 * spend millions to develop application for entering W2 info via fax/scanner
 * write versions for all 50 states
 
 !SLIDE bullets incremental
-# Snaptax: BML style part 1 #
+# Snaptax: BML part 1 #
 
 * talked to actual customers before building *gasp*
 * MVP was a quick survey
@@ -143,11 +143,11 @@
 * people wanted to whole thing done 
 
 !SLIDE bullets incremental
-# Snaptax: BML style part 2 #
+# Snaptax: BML part 2 #
 
-* **build** build a smartphone app using CA rules for simplest returns
-* **measure** who actually downloads and submits their 1040-EZ?
-* **learn** are there people willing to use their phone to file returns at all?
+* **build**- build a smartphone app using CA rules for simplest returns
+* **measure**- who actually downloads and submits their 1040-EZ?
+* **learn**- are there people willing to use their phone to file returns at all?
 
 !SLIDE bullets incremental
 # Zappos: assumptions #
@@ -158,27 +158,27 @@
 * assumed that customers would buy online for a superior retail experience
 
 !SLIDE bullets incremental
-# Zappos: rocketship style #
+# Zappos: rocketship #
 
 * build distribution infrastucture
 * aquire partners (Nike, Adidas, etc)
 * plan large sales/marketing launch
 
 !SLIDE bullets incremental
-# Zappos: BML style #
+# Zappos: BML #
 
-* **build** take pictures of local merchants shoes, put them online, buy at full price and ship by hand
-* **measure** who actually buys? what do they buy? what are their concerns?
-* **learn** price affected perception. returns are very important.
+* **build**- take pictures of local merchants shoes, put them online, buy at full price and ship by hand
+* **measure**- who actually buys? what do they buy? what are their concerns?
+* **learn**- price affected perception. returns are very important.
 
 !SLIDE bullets incremental
 # so many examples #
 
 * media loves the big-bang visionary story
 * it's a *lie*
-* **flickr**: video game
-* **groupon**: social activism platform
-* **google**: just info on Stanford and Linux
+* **flickr**- video game
+* **groupon**- social activism platform
+* **google**- just info on Stanford and Linux
 
 !SLIDE bullets incremental
 # tactics #
@@ -197,6 +197,10 @@
 # tactics addendum: A/B testing #
 
 * a specific tactic to aid measurement during experiments
+
+!SLIDE bullets incremental
+# tactics addendum: A/B testing #
+
 * aids analysis for questions like:
 * what call to action is most compelling to potential customers?
 * more complex or overlapping A/B tests- multivariate tests
