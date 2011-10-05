@@ -64,7 +64,7 @@
 	photo: <a href="http://en.wikipedia.org/wiki/File:Team_Drift.jpg">Wikipedia user RB30DE</a>
 </div>
 
-!SLIDE 
+!SLIDE bullets incremental
 # don't be a rocket ship! #
 
 * space or bust?
@@ -103,6 +103,12 @@
 * Zappos
 
 !SLIDE bullets incremental
+# CFPB #
+
+* Created by Dodd-Frank act to protect against predatory lending, fraud
+* $500 million budget
+
+!SLIDE bullets incremental
 # CFPB: assumptions #
 
 * if americans know it exists, they'll call for help
@@ -122,6 +128,12 @@
 * **measure**- call volume per population in saturated area
 * **learn**- what volume can you expect on extrapolation? 
 * what questions are real people asking?
+
+!SLIDE bullets incremental
+# Snaptax #
+
+* Started in 2009 as an internal Intuit project
+* 350k users in 2011
 
 !SLIDE bullets incremental
 # Snaptax: assumptions #
@@ -150,10 +162,15 @@
 * **learn**- are there people willing to use their phone to file returns at all?
 
 !SLIDE bullets incremental
+# Zappos #
+
+* online clothing retailer known for great customer servie
+* over $1 billion in revenue
+* aquired by Amazon for $1.2 billion
+
+!SLIDE bullets incremental
 # Zappos: assumptions #
 
-* aquired by Amazon for $1.2 billion, great customer service
-* didn't start like a rocketship
 * frustrated that there was no central online place to buy shoes
 * assumed that customers would buy online for a superior retail experience
 
