@@ -6,10 +6,10 @@
 * Director of Product Development, PolicyStat
 
 !SLIDE bullets incremental
-# what is BML loop? #
+# what is the BML loop? #
 
 * core of Lean Startup
-* tool to (in)validate hypothosis
+* tool to (in)validate hypothesis
 * scientific method for businesses
 
 !SLIDE bullets incremental
@@ -29,8 +29,8 @@
 !SLIDE bullets incremental
 # give up? #
 
-* business plans don't survive customer contact, so no planning?
-* "so be a no-planning cowboy!?"
+* business plans don't survive customer contact
+* "be a no-planning cowboy!?"
 * if you're ok with never learning
 
 !SLIDE bullets incremental
@@ -81,7 +81,7 @@
 
 * quantitatively or qualitatively
 
-!SLIDE bullets incremental
+!SLIDE
 # learn #
 
 * analyze what you measured
