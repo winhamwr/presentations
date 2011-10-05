@@ -170,7 +170,7 @@
 !SLIDE bullets incremental
 # Zappos #
 
-* online clothing retailer known for great customer servie
+* online clothing retailer known for great customer service
 * over $1 billion in revenue
 * aquired by Amazon for $1.2 billion
 
