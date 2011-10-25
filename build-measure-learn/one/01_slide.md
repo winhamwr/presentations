@@ -233,7 +233,9 @@
 * requires higher volume for statistical significance
 * if possible, stick to A/B tests for clarity (you'll know when it's not possible)
 
+
 !SLIDE
+
 # further resources #
 
 * The Lean Startup
@@ -241,7 +243,9 @@
 * [Building a Lean Startup](http://www.slideshare.net/ashmaurya/building-a-lean-startup) 
 * Google like crazy
 
+
 !SLIDE
+
 # thanks #
 
 * Me- Wes Winham [@weswinham](http://twitter.com/weswinham)

@@ -4,4 +4,5 @@ body, #preso, .slide {
     border: none;
     font-family: helvetica, arial, sans-serif;
 }
+.commandline code.command { color: #00b6d6 }
 
