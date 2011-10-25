@@ -1,0 +1,11 @@
+{
+	"name": "Zero to CI", 
+	"sections": [
+		"title_slide",
+		"../common/about_me",
+		"intro",
+		"hacking_your_process",
+		"tech_details",
+		"outro"
+	]
+}
