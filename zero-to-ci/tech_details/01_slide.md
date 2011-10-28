@@ -99,21 +99,43 @@
 !SLIDE commandline
 # 2.3 configure ssh auth #
 
+* your .ssh/config will tell your system how to authenticate against your node
 * copy `infrastructure/ssh_config.example` to `~/.ssh/config`
 
 	$ cat ssh_config.example >> ~/.ssh/config
 
-* Change the `HostName` to your ec2 instances public DNS
-* Change the `IdentityFile` path to point at the ec2 private key you used
+* change `ec2_public_nds` to your ec2 instances public DNS
+* change `ec2_private_key` to the path pointing at your ec2 private key
 
 !SLIDE commandline incremental
+# 2.4 install chef remotely #
+
+* our sample project has a jenkins `role` configured that tells littlechef what to install
+
+	$ fix node:ec2_public_dns deploy_chef
+	$ fix node:ec2_public_dns role:jenkins
+
+!SLIDE
 # 2.4 run littlechef #
 
-* our sample project has a z2ci-jenkins `node` and `role` configured
-* this tells littlechef, in combo with your `.ssh/config`, what to install:
+* now we should have a nice `nodes/ec2_public_dns.json` file representing our node
+* lets tell jenkins to use our public DNS address when proxy via nginx
+* Add the following section in your json configuration file
 
-	$ fix node:z2ci-jenkins deploy_chef
-	$ fix node:z2ci-jenkins
+	"jenkins": {
+        "http_proxy": {
+            "host_name": "ec2_public_dns"
+        }
+    },
+
+* Remember to replace `ec2_public_dns` with the actual value
+
+!SLIDE commandline incremental
+# 2.4 install jenkins #
+
+* our sample project has a jenkins `role` configured that tells littlechef what to install
+
+	$ fix node:ec2_public_dns
 
 !SLIDE bullets
 # 15 minutes to Jenkins #
