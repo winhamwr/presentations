@@ -1,0 +1,8 @@
+body, #preso, .slide {
+    background-color: black;
+    color: #00b6d6;
+    border: none;
+    font-family: helvetica, arial, sans-serif;
+}
+.commandline code.command { color: #00b6d6 }
+
