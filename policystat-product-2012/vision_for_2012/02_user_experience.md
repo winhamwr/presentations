@@ -11,9 +11,3 @@
 * Example:
 * assign acknowledgements from a document
 * ask for collaboration from a document
-
-!SLIDE bullets incremental
-# vision: user delight #
-
-* assign acknowledgements from a document
-* ask for collaboration from a document

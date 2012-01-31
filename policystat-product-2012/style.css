@@ -27,7 +27,7 @@ body, #preso, .slide {
     left: 20px;
     bottom: 20px;
     background-color: #ffffff;
-    content: url(pstat_logo.gif);
+    content: url(../../pstat_logo.gif);
 }
 .commandline code.command { color: #00b6d6 }
 
