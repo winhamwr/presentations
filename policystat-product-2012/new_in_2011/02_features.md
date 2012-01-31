@@ -1,29 +1,36 @@
-!SLIDE 
-# Static Slide #
+!SLIDE bullets incremental
+# acknowledgement improvements #
 
-* bullet 1
-* bullet 2
-
-!SLIDE bullets
-# Static Bullets #
-
-* bullet 1
-* bullet 2
-* bullet 3
+* user groups
+* weekly reminders for users and managers
+* bulk assignment
+* more reporting
 
 !SLIDE bullets incremental
-# Incremental Bullets #
+# duplicate detection #
 
-* bullet 1
-* bullet 2
-* bullet 3
+* find potential duplicates
+* integrated in the implementation process
 
-!SLIDE fullscreen
+!SLIDE bullets incremental
+# editor improvements #
 
-<img src="image-link.jpg">
-<br />
-<div class="photo-credits">
-        photo: <a href="http://example.com/source">
-Source Owner</a>
-</div>
+* indent/outdent lists with tab
+* add/remove/merge rows and columns in tables
+* many small list bugs
+* much more planned!
 
+!SLIDE bullets incremental
+# site admin improvements #
+
+* implementation tools
+* up and running in less time
+* one-click responsibility transfer
+
+!SLIDE bullets incremental
+# and more #
+
+* Excel export everywhere
+* customizable home screen
+* regulatory alerts
+* duration-based expirations

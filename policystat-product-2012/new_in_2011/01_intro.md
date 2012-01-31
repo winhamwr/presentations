@@ -1,29 +1,6 @@
-!SLIDE 
-# Static Slide #
-
-* bullet 1
-* bullet 2
-
-!SLIDE bullets
-# Static Bullets #
-
-* bullet 1
-* bullet 2
-* bullet 3
-
 !SLIDE bullets incremental
-# Incremental Bullets #
+# new in 2011 #
 
-* bullet 1
-* bullet 2
-* bullet 3
-
-!SLIDE fullscreen
-
-<img src="image-link.jpg">
-<br />
-<div class="photo-credits">
-        photo: <a href="http://example.com/source">
-Source Owner</a>
-</div>
-
+* everyone knows all 226 changes, right?
+* (I don't)
+* just some high notes
