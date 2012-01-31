@@ -1,4 +1,4 @@
-!SLIDE bullets incremental
+!SLIDE
 # user experience #
 
 * user experience is king
@@ -18,3 +18,9 @@
 * user adoption is everything
 * staff can always work around a system
 * we optimize for user delight
+
+!SLIDE bullets incremental
+# user experience #
+
+* approvers have high workload
+* 16.8 approvals per person in January
