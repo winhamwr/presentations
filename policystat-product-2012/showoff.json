@@ -3,7 +3,7 @@
 	"sections": [
 		"title_slide",
 		"intro",
-		"../common/about_me_pro",
+		"about_me_pro",
 		"operations_review",
 		"new_in_2011",
 		"questions",
