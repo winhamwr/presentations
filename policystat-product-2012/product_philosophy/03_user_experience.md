@@ -1,29 +1,20 @@
-!SLIDE 
-# Static Slide #
+!SLIDE bullets incremental
+# user experience #
 
-* bullet 1
-* bullet 2
-
-!SLIDE bullets
-# Static Bullets #
-
-* bullet 1
-* bullet 2
-* bullet 3
+* user experience is king
+* functionality only matters when staff will use it
+* technology can't solve organization problems, but it can make them worse
 
 !SLIDE bullets incremental
-# Incremental Bullets #
+# user experience #
 
-* bullet 1
-* bullet 2
-* bullet 3
+* training requirements should be minimal
+* self-serve education is must
+* most users are infrequent
 
-!SLIDE fullscreen
+!SLIDE bullets incremental
+# user experience #
 
-<img src="image-link.jpg">
-<br />
-<div class="photo-credits">
-        photo: <a href="http://example.com/source">
-Source Owner</a>
-</div>
-
+* user adoption is everything
+* staff can always work around a system
+* we optimize for user delight

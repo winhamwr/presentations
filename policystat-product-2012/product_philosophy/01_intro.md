@@ -1,29 +1,15 @@
-!SLIDE 
-# Static Slide #
+!SLIDE bullets incremental
+# State of the Product #
 
-* bullet 1
-* bullet 2
-
-!SLIDE bullets
-# Static Bullets #
-
-* bullet 1
-* bullet 2
-* bullet 3
+* Vision for 2012
+* Slides: [http://bit.ly/pstat2012-product](http://bit.ly/pstat2012-product)
+* Submit and vote on questions for me to answer: [http://goo.gl/mod/367o](http://goo.gl/mod/367o)
+* Wes Winham - Director of Product Development
 
 !SLIDE bullets incremental
-# Incremental Bullets #
+# our 2012 vision #
 
-* bullet 1
-* bullet 2
-* bullet 3
-
-!SLIDE fullscreen
-
-<img src="image-link.jpg">
-<br />
-<div class="photo-credits">
-        photo: <a href="http://example.com/source">
-Source Owner</a>
-</div>
+* our product philosophy
+* the vision for 2012
+* questions
 

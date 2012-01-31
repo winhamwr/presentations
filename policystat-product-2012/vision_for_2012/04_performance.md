@@ -1,29 +1,20 @@
-!SLIDE 
-# Static Slide #
+!SLIDE
+# vision: faster, faster #
 
-* bullet 1
-* bullet 2
-
-!SLIDE bullets
-# Static Bullets #
-
-* bullet 1
-* bullet 2
-* bullet 3
+* faster is better
+* little speedups affect workflow
 
 !SLIDE bullets incremental
-# Incremental Bullets #
+# vision: faster, faster #
 
-* bullet 1
-* bullet 2
-* bullet 3
+* consistent speed makes your staff happy
+* happy staff don't avoid tools
+* using tools means better information, less risk
 
-!SLIDE fullscreen
+!SLIDE bullets incremental
+# vision: faster, faster #
 
-<img src="image-link.jpg">
-<br />
-<div class="photo-credits">
-        photo: <a href="http://example.com/source">
-Source Owner</a>
-</div>
+* little speedups affect workflow
+* lookup the policy or just try to remember?
+* make that little change or wait a couple of months?
 

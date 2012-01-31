@@ -1,29 +1,27 @@
-!SLIDE 
-# Static Slide #
+!SLIDE
+# vision: new areas #
 
-* bullet 1
-* bullet 2
-
-!SLIDE bullets
-# Static Bullets #
-
-* bullet 1
-* bullet 2
-* bullet 3
+* improve what we already do, but listen
+* experiment with new functionality
+* no need to sacrifice user experience
 
 !SLIDE bullets incremental
-# Incremental Bullets #
+# vision: new areas #
 
-* bullet 1
-* bullet 2
-* bullet 3
+* contract management?
+* similar needs to policies
+* some customers already using
 
-!SLIDE fullscreen
+!SLIDE bullets incremental
+# vision: new areas #
 
-<img src="image-link.jpg">
-<br />
-<div class="photo-credits">
-        photo: <a href="http://example.com/source">
-Source Owner</a>
-</div>
+* analytics?
+* more tools for improving your process
+* 50k foot views for health systems
 
+!SLIDE bullets incremental
+# vision #
+
+* create and capture information
+* spread information top down and bottom up
+* eliminate risk and waste

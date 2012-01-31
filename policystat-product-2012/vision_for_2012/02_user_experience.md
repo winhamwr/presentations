@@ -1,29 +1,13 @@
-!SLIDE 
-# Static Slide #
-
-* bullet 1
-* bullet 2
-
-!SLIDE bullets
-# Static Bullets #
-
-* bullet 1
-* bullet 2
-* bullet 3
-
 !SLIDE bullets incremental
-# Incremental Bullets #
+# vision: user delight #
 
-* bullet 1
-* bullet 2
-* bullet 3
+* make existing processes easier
+* require less training
+* find shortcuts, smooth edges
 
-!SLIDE fullscreen
+!SLIDE
+# vision: user delight #
 
-<img src="image-link.jpg">
-<br />
-<div class="photo-credits">
-        photo: <a href="http://example.com/source">
-Source Owner</a>
-</div>
-
+* Example:
+* assign acknowledgements from a document
+* ask for collaboration from a document
