@@ -1,29 +1,10 @@
-!SLIDE 
-# Static Slide #
-
-* bullet 1
-* bullet 2
-
-!SLIDE bullets
-# Static Bullets #
-
-* bullet 1
-* bullet 2
-* bullet 3
-
 !SLIDE bullets incremental
-# Incremental Bullets #
+# outline #
 
-* bullet 1
-* bullet 2
-* bullet 3
+* review 2011 (15 minutes)
+* questions (5 minutes)
+* 2012 vision (15 minutes)
+* questions (5 minutes)
 
-!SLIDE fullscreen
-
-<img src="image-link.jpg">
-<br />
-<div class="photo-credits">
-        photo: <a href="http://example.com/source">
-Source Owner</a>
-</div>
+.notes Going to hit the highlights of 2011 for those who haven't caught up and explain how we got there. Then talk about our philosophy as a product team and what our vision is for 2012.
 

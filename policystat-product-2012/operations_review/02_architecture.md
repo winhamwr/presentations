@@ -1,29 +1,14 @@
-!SLIDE 
-# Static Slide #
+!SLIDE bullets incremental
+# operations: architecture #
 
-* bullet 1
-* bullet 2
-
-!SLIDE bullets
-# Static Bullets #
-
-* bullet 1
-* bullet 2
-* bullet 3
+* multiple datacenters
+* fault-tolerant
+* product updates performed on the fly
 
 !SLIDE bullets incremental
-# Incremental Bullets #
+# operations: battle-hardened #
 
-* bullet 1
-* bullet 2
-* bullet 3
-
-!SLIDE fullscreen
-
-<img src="image-link.jpg">
-<br />
-<div class="photo-credits">
-        photo: <a href="http://example.com/source">
-Source Owner</a>
-</div>
-
+* easy to say you're fault-tolerant
+* even world-class datacenters have failure
+* we had one in April
+* you didn't notice

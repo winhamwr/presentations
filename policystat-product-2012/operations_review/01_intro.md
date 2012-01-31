@@ -1,29 +1,15 @@
 !SLIDE 
-# Static Slide #
+# operations 2011#
 
-* bullet 1
-* bullet 2
+* goals
+* architecture
+* metrics
 
-!SLIDE bullets
-# Static Bullets #
+!SLIDE
+# operations: goals #
 
-* bullet 1
-* bullet 2
-* bullet 3
+* reliable
+* fast 
+* "it just works"
 
-!SLIDE bullets incremental
-# Incremental Bullets #
-
-* bullet 1
-* bullet 2
-* bullet 3
-
-!SLIDE fullscreen
-
-<img src="image-link.jpg">
-<br />
-<div class="photo-credits">
-        photo: <a href="http://example.com/source">
-Source Owner</a>
-</div>
-
+.notes A reliable, fast system that our customers don't have to think about
