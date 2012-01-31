@@ -1,0 +1,14 @@
+{
+	"name": "PolicyStat- State of the Product 2012", 
+	"sections": [
+		"title_slide",
+		"intro",
+		"../common/about_me_pro",
+		"operations_review",
+		"new_in_2011",
+		"questions",
+		"product_philosophy",
+		"vision_for_2012",
+		"questions"
+	]
+}
