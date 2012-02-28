@@ -1,4 +1,4 @@
-!SLIDE bullets incremental
+!SLIDE 
 # State of the Product #
 
 * Vision for 2012
