@@ -18,8 +18,9 @@
 !SLIDE 
 # Blog: 15 resources to learn Django #
 
-* Visualize your metrics with python
-* Uses mogodb, numpy and web2py
+* Comparison to other languages
+* Python style
+* Tutorials, Docs, tools
 * [http://tech.yipit.com/2012/02/28/learn-django/](http://tech.yipit.com/2012/02/28/learn-django/)
 
 !SLIDE fullscreen
