@@ -54,10 +54,10 @@
 !SLIDE 
 # Django 1.4 beta 1 #
 
-* prefetch_related
+* `prefetch_related`
 * html5
 * template exeptions not wrapped
-* time zones!
+* time zones
 
 !SLIDE fullscreen
 
@@ -70,3 +70,16 @@
 * Timezone support
 * Solution for hanging workers
 * ~3x reduction in task-running overhead
+
+!SLIDE fullscreen
+
+<img src="indy_python_workshop.jpg">
+<br />
+
+!SLIDE 
+# Indianapolis Python Workshop: April 13-14 #
+
+* Focused on brand-new folks (free)
+* Diversity!
+* Men must bring a woman
+* Need teach assistants
