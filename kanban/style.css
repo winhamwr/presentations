@@ -6,3 +6,9 @@ body, #preso, .slide {
 }
 .commandline code.command { color: #00b6d6 }
 
+.bullets > ul {
+    list-style: disc !important;
+    text-align: left !important;
+    padding: 0 0 0 0 !important;
+}
+

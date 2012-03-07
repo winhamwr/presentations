@@ -29,12 +29,12 @@
 * Manufacturing
 * Client Services
 
-!SLIDE
+!SLIDE bullets incremental
 # Benefits #
 
 * Identify process bottlenecks
 * Visibility! (What are you working on?)
-* Identify process bottlenecks
+* __Identify process bottlenecks__
 * Moving cards feels good
 
 !SLIDE fullscreen
