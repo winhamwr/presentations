@@ -82,4 +82,4 @@
 * Focused on brand-new folks (free)
 * Diversity!
 * Men must bring a woman
-* Need teach assistants
+* Need teaching assistants
