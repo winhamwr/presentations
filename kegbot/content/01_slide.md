@@ -101,6 +101,12 @@
 * SF800 flowmeter- Dutch
 * plumbing is a pain- 3/16 inch
 * protect your flowmeter
+* throw a party!
+
+!SLIDE fullscreen
+
+<img src="nye_kegbot.jpg">
+<br />
 
 !SLIDE bullets incremental
 # future improvements #
