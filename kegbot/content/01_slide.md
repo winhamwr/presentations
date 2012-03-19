@@ -1,4 +1,4 @@
-!SLIDE 
+!SLIDE bullets incremental
 # this is a thing!? #
 
 * what's better than beer?
@@ -36,7 +36,7 @@
 <br />
 
 !SLIDE
-# Is it Awesome? #
+# is it Awesome? #
 
 * Yes
 
@@ -105,8 +105,8 @@
 !SLIDE bullets incremental
 # future improvements #
 
-* use a RasberryPi
+* use a Rasberry Pi
 * one-command kegweb setup?
 * kegbot in the cloud?
-* android table version
+* android tablet version
 
