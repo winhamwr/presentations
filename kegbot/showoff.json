@@ -1,0 +1,9 @@
+{
+	"name": "Kegbot", 
+	"sections": [
+		"title_slide",
+		"intro",
+		"content",
+		"outro"
+	]
+}

@@ -1,0 +1,20 @@
+body, #preso, .slide {
+    background-color: black;
+    color: #00b6d6;
+    border: none;
+    font-family: helvetica, arial, sans-serif;
+}
+.commandline code.command { color: #00b6d6 }
+
+.bullets > ul {
+    list-style: disc !important;
+    text-align: left !important;
+    padding: 0 0 0 40px !important;
+}
+.bullets > ul > li {
+    list-style: disc !important;
+    text-align: left !important;
+    padding: .5em !important;
+    margin-left: 40px !important;
+}
+
