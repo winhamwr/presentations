@@ -8,7 +8,7 @@
 
 * not a detailed how-to
 * big picture + tools
-* learn how to learn *barf*
+* */professor* learn how to learn
 * just my perspective
 
 !SLIDE bullets incremental
@@ -81,8 +81,8 @@
 # testing tools #
 
 * nose + nosedjango
-* factory boy (mocks)
-* jenkins- CI
+* factory boy (model generation)
+* jenkins- Run your tests
 * slow tests better than none
 
 !SLIDE bullets incremental
@@ -106,6 +106,7 @@
 
 * don't
 * your problem probably solved
+* seriously, stop
 
 !SLIDE fullscreen
 
