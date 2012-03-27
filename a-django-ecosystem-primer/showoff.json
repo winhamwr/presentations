@@ -1,0 +1,9 @@
+{
+	"name": "A Django Ecosystem Primer", 
+	"sections": [
+		"title_slide",
+		"intro",
+		"content",
+		"outro"
+	]
+}
