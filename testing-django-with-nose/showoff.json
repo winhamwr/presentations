@@ -1,0 +1,9 @@
+{
+	"name": "Testing Django with Nose (because the Django testrunner sucks)",
+	"sections": [
+		"title_slide",
+		"intro",
+		"content",
+		"outro"
+	]
+}
