@@ -49,7 +49,7 @@ www.theverge.com</a>
 !SLIDE bullets
 # Folks who don't care
 
-* Google, LinkedIn, Facebook, Amazon.com, Netflix
+* Google, LinkedIn, Facebook, Amazon.com, Netflix, etc
 * Already solved this
 * Deployinator, Borg, Asgard, Mesos, Sekrits
 
@@ -96,7 +96,7 @@ fingercandymedia.com</a>
 * Juju, Stackato, Cloud Foundry, Open Shift etc etc
 * Partial deploys?
 * Manage EC2 nodes?
-* Detects that I'm breaking things?
+* Detect that I'm breaking things?
 * Own my backing services?
 
 !SLIDE bullets
