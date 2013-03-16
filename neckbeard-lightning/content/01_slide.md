@@ -157,8 +157,8 @@ bygeeksforgeeks.blogspot.com</a>
 !SLIDE bullets
 # The Future
 
-* `$ neckbeard up`
-* Find existing nodes/services and launch/configure new ones (with data)
-* Understand AZ's, rotate nodes out of the load balancer, deploy to them
-* If they're not healthy, stop! Needs human intervention
-* Hooks for monitoring, logging, reporting, etc
+1. `$ neckbeard up`
+2. Launch/Configure cloud resources
+3. Datacenter-aware, staged, zero-downtime deploy
+4. Deployment immune system
+5. Hooks for monitoring, logging, reporting, snowflakes, etc
