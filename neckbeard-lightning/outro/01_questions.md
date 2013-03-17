@@ -1,7 +1,7 @@
 !SLIDE bullets
-# Deployment Sucks: BOF
+# Sprinting: Let's collaborate!
 
-* Bring your solution and opinions
-* Tell me I'm wrong
-* Let's talk
-* Let's share code
+* @weswinham
+* Bring your current solution
+* Tell me your opinions
+* Let's talk and share

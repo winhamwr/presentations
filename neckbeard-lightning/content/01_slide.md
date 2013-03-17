@@ -151,8 +151,8 @@ bygeeksforgeeks.blogspot.com</a>
 
 * [Neckbeard](https://github.com/winhamwr/neckbeard)
 * Open-sourcing what I have
-* Strongly Heroku-convergent interface
-* Fabric + Boto + SimpleDB + LittleChef + Chef-solo
+* Pluggable interfaces for sharing!
+* Fabric + <cloudlib> + <datastore> + <provisioner>
 
 !SLIDE bullets
 # The Future
