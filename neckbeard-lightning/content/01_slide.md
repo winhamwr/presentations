@@ -152,7 +152,7 @@ bygeeksforgeeks.blogspot.com</a>
 * [Neckbeard](https://github.com/winhamwr/neckbeard)
 * Open-sourcing what I have
 * Pluggable interfaces for sharing!
-* Fabric + <cloudlib> + <datastore> + <provisioner>
+* Fabric + `IaaS` + `datastore` + `provisioner` + `orchestration`
 
 !SLIDE bullets
 # The Future
