@@ -38,8 +38,21 @@ cloudreviews.com</a>
 
 # First rule of optimization:
 
-!SLIDE bullets
+!SLIDE subsection
+
 # No premature optimization
+
+!SLIDE subsection
+
+# It affects to lots of developers
+
+!SLIDE fullscreen center
+
+<img src="sad_guy.png">
+<br />
+
+!SLIDE bullets
+# Choose obvious wins!
 
 * Don't add code complexity
 * Don't make things fragile
@@ -67,7 +80,7 @@ cloudreviews.com</a>
 !SLIDE bullets
 # Front end 20%: Reverse Proxy
 
-* Lives in from of `uwsgi`/`mod_wsgi`
+* Lives in front of `uwsgi`/`mod_wsgi`
 * Protects you from slow clients
 * Serves your media crazy-fast
 
@@ -75,7 +88,13 @@ cloudreviews.com</a>
 # Front end 20%: GZIP
 
 * Tell nginx to GZIP everything
+* Remove django gzip middleware
 * Cut network transfer in half, for free
+
+!SLIDE fullscreen center
+
+<img src="fontawesome.png">
+<br />
 
 !SLIDE bullets
 # Front end 20%: Use a font icon
@@ -90,15 +109,18 @@ cloudreviews.com</a>
 * CSS at the top, JS at the bottom
 * Fewer HTTP requests win!
 
-!SLIDE code
+!SLIDE code fullscreen
 
-{% load compress %}
+    # my_template.html
 
-{% compress css %}
-<link rel="stylesheet" href="/static/css/one.css" type="text/css" charset="utf-8">
-<style type="text/css">p { border:5px solid green;}</style>
-<link rel="stylesheet" href="/static/css/two.css" type="text/css" charset="utf-8">
-{% endcompress %}
+    {% load compress %}
+
+    {% compress css %}
+    <link rel="stylesheet"
+        href="/static/css/one.css" type="text/css">
+    <link rel="stylesheet"
+        href="/static/css/two.css" type="text/css">
+    {% endcompress %}
 
 
 !SLIDE fullscreen center
@@ -126,11 +148,13 @@ cloudreviews.com</a>
 
 !SLIDE code
 
-MIDDLEWARE_CLASSES = (
-    'johnny.middleware.LocalStoreClearMiddleware',
-    'johnny.middleware.QueryCacheMiddleware',
-    # ...
-)
+    # settings.py
+
+    MIDDLEWARE_CLASSES = (
+        'johnny.middleware.LocalStoreClearMiddleware',
+        'johnny.middleware.QueryCacheMiddleware',
+        # ...
+    )
 
 !SLIDE bullets
 # Database 20%: Slow Query Log
@@ -144,9 +168,11 @@ MIDDLEWARE_CLASSES = (
 
 !SLIDE code
 
-slow_query_log = 1
-long_query_time = .1
-log_queries_not_using_indexes = 1
+    # /etc/mysql/conf.d/slow_query.cnf
+
+    slow_query_log = 1
+    long_query_time = .1
+    log_queries_not_using_indexes = 1
 
 !SLIDE subsection
 
@@ -154,35 +180,67 @@ log_queries_not_using_indexes = 1
 
 !SLIDE code
 
-# Time: 130823 13:45:48
-# User@Host: live0[live0] @ domU-12-31-39-06-58-94.compute-1.internal [10.208.95.98]
-# Query_time: 10.454075  Lock_time: 0.000085 Rows_sent: 20  Rows_examined: 149654
-use policystat;
-SET timestamp=1377265548;
+    # Time: 130823 13:45:48
+    # User@Host: live0[live0] @ URL[IP]
+    # Query_time: 10.454075  Lock_time: 0.000085
+        Rows_sent: 20  Rows_examined: 149654
+    use policystat;
+    SET timestamp=1377265548;
 
 !SLIDE code
 
-SELECT `auth_user`.`id`, ...snip...
-FROM `auth_user` LEFT OUTER JOIN `pstat_profile`
-  ON (`auth_user`.`id` = `pstat_profile`.`user_id`)
-  INNER JOIN `pstat_tenant`
-    ON (`pstat_profile`.`tenant_id` = `pstat_tenant`.`id`)
+# How bad was it?
+
+    # Query_time: 10.454075  Lock_time: 0.000085
+        Rows_sent: 20  Rows_examined: 149654
 
 !SLIDE code
 
-WHERE (`pstat_profile`.`is_guest` = 0
-  AND `pstat_profile`.`tenant_id` IN (
-    301, ...snip... 356)
-  AND `auth_user`.`is_superuser` = 0
-  AND `auth_user`.`is_active` = 1
-)
+# When was it?
+
+    SET timestamp=1377265548;
+
 
 !SLIDE code
 
-ORDER BY `auth_user`.`last_name` ASC,
-`auth_user`.`first_name` ASC,
-`auth_user`.`username` ASC
-LIMIT 20;
+    SELECT `auth_user`.`id`, ...snip...
+    FROM `auth_user` LEFT OUTER JOIN `pstat_profile`
+      ON (`auth_user`.`id` = `pstat_profile`.`user_id`)
+      INNER JOIN `pstat_tenant`
+        ON (`pstat_profile`.`tenant_id` = `pstat_tenant`.`id`)
+
+!SLIDE code
+
+    WHERE (`pstat_profile`.`is_guest` = 0
+      AND `pstat_profile`.`tenant_id` IN (
+        301, ...snip... 356)
+      AND `auth_user`.`is_superuser` = 0
+      AND `auth_user`.`is_active` = 1
+    )
+
+!SLIDE bullets
+
+# Where clause across tables
+
+* Can't index across tables with MySQL
+* Your DB chooses *one* index per table
+* A JOIN key counts as *one*
+* Easy to filter superuser and inactive in python
+
+!SLIDE code
+
+    ORDER BY `auth_user`.`last_name` ASC,
+    `auth_user`.`first_name` ASC,
+    `auth_user`.`username` ASC
+    LIMIT 20;
+
+!SLIDE bullets
+
+# Complex `ORDER BY`
+
+* No index there
+* Creates a temporary table!
+* Beware of default `order_by`
 
 !SLIDE bullets
 # Database fixes
@@ -204,12 +262,15 @@ LIMIT 20;
 
 !SLIDE code
 
-TEMPLATE_LOADERS = (
-    ('django.template.loaders.cached.Loader', (
+    TEMPLATE_LOADERS = (
+    (
+      'django.template.loaders.cached.Loader',
+      (
         'django.template.loaders.filesystem.Loader',
         'django.template.loaders.app_directories.Loader',
-    )),
-)
+      )
+    ),
+    )
 
 !SLIDE subsection
 
@@ -224,18 +285,22 @@ TEMPLATE_LOADERS = (
 
 !SLIDE code
 
-context = {
-    'my_things': MyThing.objects.filter(foo=bar)
-}
+    # views.py
 
-<table>
-{% for my_thing in my_things %}
-    <tr>
-        <td>{{ my_thing.name }}</td>
-        <td>{{ my_thing.other_thing.name }}</td>
-    <tr>
-{% endfor %}
-</table>
+    context = {
+        'my_things': MyThing.objects.filter(foo=bar)
+    }
+
+    # my_template.html
+
+    <table>
+    {% for my_thing in my_things %}
+        <tr>
+            <td>{{ my_thing.name }}</td>
+            <td>{{ my_thing.other_thing.name }}</td>
+        <tr>
+    {% endfor %}
+    </table>
 
 !SLIDE subsection
 
@@ -243,11 +308,13 @@ context = {
 
 !SLIDE code
 
-context = {
-    'my_things': MyThing.objects.filter(
-        foo=bar
-    ).select_related('other_thing__name')
-}
+    # views.py
+
+    context = {
+        'my_things': MyThing.objects.filter(
+            foo=bar
+        ).select_related('other_thing__name')
+    }
 
 !SLIDE subsection
 
@@ -255,16 +322,25 @@ context = {
 
 !SLIDE code
 
-def test_query_growth():
-    expected_queries = FuzzyInteger(10, 13)
+    # views.py
 
-    # Make 5 MyThing objects
+    def test_query_growth(self):
+        expected_queries = FuzzyInteger(10, 13)
 
-    with assertNumQueries(expected_queries):
-        # Load the view
+        # Make 5 MyThing objects
 
-    # Make 5 more MyThing objects
+        with self.assertNumQueries(expected_queries):
+            # Load the view
 
-    with assertNumQueries(expected_queries):
-        # Load the view again
+        # Make 5 more MyThing objects
 
+        with self.assertNumQueries(expected_queries):
+            # Load the view again
+
+
+!SLIDE bullets
+# Focus on the easy wins
+
+* No extra complexity
+* Make them a habit
+* The other 20% is much harder

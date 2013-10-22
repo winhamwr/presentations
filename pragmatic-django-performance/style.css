@@ -13,6 +13,9 @@ body, #preso, .slide {
     background-color: #ffffff;
     color: #133672;
 }
+.subsection h1 {
+    border: solid;
+}
 .content > ul {
     list-style: disc !important;
     text-align: left !important;
@@ -31,4 +34,5 @@ body, #preso, .slide {
     background-color: #ffffff;
 }
 .commandline code.command { color: #00b6d6 }
+code { font-size: 0.8em; }
 
