@@ -111,7 +111,8 @@ cloudreviews.com</a>
 
 !SLIDE code fullscreen
 
-    # my_template.html
+    @@@ html
+    <!-- my_template.html -->
 
     {% load compress %}
 
@@ -148,6 +149,7 @@ cloudreviews.com</a>
 
 !SLIDE code
 
+    @@@ python
     # settings.py
 
     MIDDLEWARE_CLASSES = (
@@ -168,6 +170,7 @@ cloudreviews.com</a>
 
 !SLIDE code
 
+    @@@ Makefile
     # /etc/mysql/conf.d/slow_query.cnf
 
     slow_query_log = 1
@@ -180,10 +183,11 @@ cloudreviews.com</a>
 
 !SLIDE code
 
+    @@@ SQL
     # Time: 130823 13:45:48
     # User@Host: live0[live0] @ URL[IP]
     # Query_time: 10.454075  Lock_time: 0.000085
-        Rows_sent: 20  Rows_examined: 149654
+    # Rows_sent: 20  Rows_examined: 149654
     use policystat;
     SET timestamp=1377265548;
 
@@ -191,18 +195,21 @@ cloudreviews.com</a>
 
 # How bad was it?
 
+    @@@ SQL
     # Query_time: 10.454075  Lock_time: 0.000085
-        Rows_sent: 20  Rows_examined: 149654
+    # Rows_sent: 20  Rows_examined: 149654
 
 !SLIDE code
 
 # When was it?
 
+    @@@ SQL
     SET timestamp=1377265548;
 
 
 !SLIDE code
 
+    @@@ SQL
     SELECT `auth_user`.`id`, ...snip...
     FROM `auth_user` LEFT OUTER JOIN `pstat_profile`
       ON (`auth_user`.`id` = `pstat_profile`.`user_id`)
@@ -211,6 +218,7 @@ cloudreviews.com</a>
 
 !SLIDE code
 
+    @@@ SQL
     WHERE (`pstat_profile`.`is_guest` = 0
       AND `pstat_profile`.`tenant_id` IN (
         301, ...snip... 356)
@@ -229,6 +237,7 @@ cloudreviews.com</a>
 
 !SLIDE code
 
+    @@@ SQL
     ORDER BY `auth_user`.`last_name` ASC,
     `auth_user`.`first_name` ASC,
     `auth_user`.`username` ASC
@@ -262,6 +271,9 @@ cloudreviews.com</a>
 
 !SLIDE code
 
+    @@@ python
+    # settings.py
+
     TEMPLATE_LOADERS = (
     (
       'django.template.loaders.cached.Loader',
@@ -285,14 +297,15 @@ cloudreviews.com</a>
 
 !SLIDE code
 
+    @@@ python
     # views.py
-
     context = {
         'my_things': MyThing.objects.filter(foo=bar)
     }
+<!-- separator -->
 
-    # my_template.html
-
+    @@@ html
+    <!-- my_template.html -->
     <table>
     {% for my_thing in my_things %}
         <tr>
@@ -308,6 +321,9 @@ cloudreviews.com</a>
 
 !SLIDE code
 
+`select_related()` to the rescue!
+
+    @@@ python
     # views.py
 
     context = {
@@ -322,6 +338,7 @@ cloudreviews.com</a>
 
 !SLIDE code
 
+    @@@ python
     # views.py
 
     def test_query_growth(self):
