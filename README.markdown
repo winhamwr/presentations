@@ -1,16 +1,30 @@
-This is a  [showoff](http://github.com/schacon/showoff) presentation.
+# Wes's Presentations
 
-    sudo gem install showoff
-    git clone git://github.com/winhamwr/presentations.git
-    cd presentations/build-measure-learn
-    showoff serve
+These are my [showoff](http://github.com/schacon/showoff) presentation.
+
+## Running presentations locally
+
+    @@@ bash
+    $ sudo gem install showoff
+    $ git clone git://github.com/winhamwr/presentations.git
+    $ export PRESO_NAME=build-measure-learn
+    $ cd presentations/$PRESO_NAME
+    $ showoff serve
 
 Or, you can run it via rack (e.g., using Passenger) by just installing the showoff gem
 and pointing to the rackup file (config.ru).
 
+## Hosted Version
+
 There is also a hosted version running at:
 
 [http://weswinham.com/preso/indylsc-build-measure-learn/](http://weswinham.com/preso/indylsc-build-measure-learn/)
+
+## Deploying presentations to your blog (Wes)
+
+Use the nifty `deploy-to-blog.sh` script!
+
+## Thanks and stuff
 
 Thanks to [Rick Bradley](https://github.com/rick/presentation_railsconf_2010) for theme/structure inspiration.
 
