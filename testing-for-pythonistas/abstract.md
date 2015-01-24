@@ -11,7 +11,7 @@ and support powerful,
 no-boilerplate testing.
 Following the "batteries included"
 pythonic philosophy,
-they also support loads of 
+they also support loads of
 use-them-when-you-need-them
 features and plugins.
 

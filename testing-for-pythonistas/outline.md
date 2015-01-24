@@ -76,29 +76,6 @@ py.test
 $ nosetests project
 ```
 `
-
-#### function, class, generator
-
-* function
-  * example
-* class
-  * example
-* generator
-  * example
-
-#### Setup, teardown
-
-* Module
-* Class
-* Function
-
-
-## Your First Test
-
-### Installation
-
-* virtualenv, pip, hitchhikers guide
-
 ### Minimal test
 
 * function with assert
@@ -209,8 +186,3 @@ def test_complex_data(complex_data):
 * Sane plugin API
 * Not plugin feature parity, incompatible plugins
 
-## Thanks
-
-* PolicyStat hiring
-* Wes Winham, VP of Product
-* github.com/winhamwr

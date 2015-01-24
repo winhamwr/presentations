@@ -4,12 +4,13 @@
 
 !SLIDE fullscreen center
 
-<img src="performance_matters.jpg">
+<img src="testing_my_code.gif" style="width=504px; height=382px" width="504" height="382">
 <br />
-<div class="photo-credits">
-        photo: <a href="http://www.cloudreviews.com/blog/web-performance-optimization-part-1">
-cloudreviews.com</a>
-</div>
+
+!SLIDE fullscreen center
+
+<img src="untested_code.gif">
+<br />
 
 !SLIDE bullets
 # Today
@@ -266,18 +267,18 @@ cloudreviews.com</a>
 	# test_fixtures.py
 	from pytest import fixture
 
-	@fixture  # Registering this function as a fixture.
+	@fixture
 	def complex_data():
-		# Creating test data entirely in this function to isolate it
-		#   from the rest of this module.
 		class DataTypes(object):
 			string = str
 			list = list
 		return DataTypes()
 
-	def test_types(complex_data): # fixture is passed as an argument
-		assert isinstance("Elephant", complex_data.string)
-		assert isinstance([5, 10, 15], complex_data.list)
+	def test_types(complex_data):
+		assert isinstance(
+            "Elephant", complex_data.string)
+		assert isinstance(
+            [5, 10, 15], complex_data.list)
 
 !SLIDE subsection
 # pytest: Tests for tests
@@ -324,7 +325,7 @@ cloudreviews.com</a>
 !SLIDE bullets
 # Plugins: Sources
 
-* [pytest-plugis](http://pytest-plugs.herokuapp.com/)
+* [pytest-plugs](http://pytest-plugs.herokuapp.com/)
 * [nose builtin](http://nose.readthedocs.org/en/latest/plugins/builtin.html)
 * [nose 3rd party](https://nose-plugins.jottit.com/)
 
@@ -355,3 +356,16 @@ cloudreviews.com</a>
 
 * `$ py.test --junitxml=path`
 * `$ nosetests --with-xunit`
+
+!SLIDE bullets
+# Plugin authoring
+
+* All the hooks!
+* Plugin with a plugin system
+* e.g. fulltext search setup/teardown
+
+!SLIDE fullscreen center
+
+<img src="../pstat_logo.gif">
+<br />
+<p>We're hiring!</p>
