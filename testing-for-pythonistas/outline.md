@@ -54,6 +54,17 @@
 
 * Not just unittest, but finds unittest
 * `test_` modules, walks directories
+
+`
+nosetests only_test_this.py
+nosetests test.module
+nosetests another.test:TestCase.test_method
+nosetests a.test:TestCase
+nosetests /path/to/test/file.py:test_function
+py.test only_test_this.py
+nosetests
+py.test
+`
   * example
 * doctests
   * example
@@ -98,10 +109,70 @@ $ nosetests project
 * unittest
   * example
 
+## Configuration
+
+### nose
+
+```
+# setup.cfg, .noserc or nose.cfg
+[nosetests]
+verbosity=3
+with-doctest=1
+
+```
+`
+
+### py.test
+
+```
+# pytest.ini (or tox.ini or setup.cfg)
+[pytest] # You must put pytest-related controls in a 'pytest' block
+python_files=*.py  # Run tests against all python modules
+norecursedirs = _build # Don't look inside of _build directories
+```
+`
+## py.test fixtures
+
+[Danny Greenfield](http://www.pydanny.com/pytest-no-boilerplate-testing-2.html)
+
+### Fixtures as function arguments
+
+```
+# test_fixtures.py
+from pytest import fixture
+
+@fixture  # Registering this function as a fixture.
+def complex_data():
+    # Creating test data entirely in this function to isolate it
+    #   from the rest of this module.
+    class DataTypes(object):
+        string = str
+        list = list
+    return DataTypes()
+
+def test_types(complex_data): # fixture is passed as an argument
+    assert isinstance("Elephant", complex_data.string)
+    assert isinstance([5, 10, 15], complex_data.list)
+```
+`
+
+### Test for fixtures
+
+```
+# test_fixtures.py
+# note: this version of test_fixtures.py is built off the previous example
+
+def test_complex_data(complex_data):
+    assert isinstance(complex_data, object)
+    assert complex_data.string == str
+    assert complex_data.list == list
+```
+`
 ## Using Plugins
 
 * django
 * coverage
+* tox
 * `<your framework>`
 * `<your backend service>`
 * [pytest-plugs](http://pytest-plugs.herokuapp.com/)
@@ -138,3 +209,8 @@ $ nosetests project
 * Sane plugin API
 * Not plugin feature parity, incompatible plugins
 
+## Thanks
+
+* PolicyStat hiring
+* Wes Winham, VP of Product
+* github.com/winhamwr
