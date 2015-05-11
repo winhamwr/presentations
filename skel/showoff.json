@@ -1,0 +1,8 @@
+{
+	"name": "Talk title",
+	"sections": [
+		"title_slide",
+		"intro",
+		"content"
+	]
+}

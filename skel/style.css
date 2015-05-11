@@ -1,0 +1,38 @@
+body, #preso, .slide {
+    background-color: #ffffff;
+    border: none;
+    font-family: helvetica, arial, sans-serif;
+}
+.content {
+    background-color: #ffffff;
+    color: #3965B0;
+}
+.content h1, .content h2 {
+    font-family: Georgia;
+    text-weight: bold;
+    background-color: #ffffff;
+    color: #133672;
+}
+.subsection h1 {
+    border: solid;
+}
+.content > ul {
+    list-style: disc !important;
+    text-align: left !important;
+    padding: 0 0 0 30px !important;
+}
+.content > ul > li {
+    list-style: disc !important;
+    text-align: left !important;
+    padding: .2em !important;
+    margin-left: 30px !important;
+}
+.content::after {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    background-color: #ffffff;
+}
+.commandline code.command { color: #00b6d6 }
+code { font-size: 0.8em; }
+
